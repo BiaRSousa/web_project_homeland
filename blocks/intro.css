@@ -1,6 +1,9 @@
 .intro {
-  width: 830px;
-  margin: 92px 302px 92px 148px;
+  display: flex;
+  flex-direction: column;
+  max-width: 830px;
+  margin-top: 92px;
+  margin-bottom: 92px;
 }
 
 .intro__title {
@@ -8,6 +11,7 @@
   font-family: "Inter Black";
   font-size: 54px;
   line-height: 58px;
+  margin-top: auto;
   margin-bottom: 40px;
 }
 
@@ -38,4 +42,5 @@
   font-family: "Inter";
   font-size: 16px;
   line-height: 163%;
+  margin: 0;
 }
