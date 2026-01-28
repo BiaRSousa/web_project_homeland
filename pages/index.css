@@ -12,6 +12,9 @@
 
 @import url("../blocks/footer.css");
 
+@media screen and (max-width: 1280px) {
+}
+
 @media screen and (max-width: 768px) {
   .header__logo {
     height: 66px;
@@ -19,9 +22,14 @@
     margin-top: 30px;
   }
 
+  .lead {
+    max-width: 768px;
+  }
+
   .lead__tittle {
     font-size: 75px;
     line-height: 79px;
+    margin-bottom: 25px;
   }
 
   .lead__description {
@@ -32,4 +40,21 @@
     width: 768px;
     height: 480px;
   }
+
+  /******descobrir a sobre de pixels na section lead (de onde vem?)****/
+
+  .intro {
+    margin-top: 90px;
+    width: 720px;
+  }
+
+  .intro__title {
+    font-size: 45px;
+    line-height: 49px;
+  }
+
+  .intro__quote {
+  }
 }
+
+//////**CENTRALIZAR CONTEUDO DA INTRO**//////
