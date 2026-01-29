@@ -31,3 +31,50 @@
   height: 615px;
   filter: grayscale(100%);
 }
+
+@media screen and (max-width: 768px) {
+  .lead {
+    max-width: 768px;
+  }
+
+  .lead__tittle {
+    font-size: 75px;
+    line-height: 79px;
+    margin-bottom: 25px;
+  }
+
+  .lead__description {
+    margin-bottom: 30px;
+  }
+
+  .lead__image {
+    width: 768px;
+    height: 480px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead {
+    max-width: 320px;
+    margin-bottom: 64px;
+  }
+
+  .lead__tittle {
+    width: 228px;
+    font-size: 40px;
+    line-height: 44px;
+    margin-bottom: 16px;
+  }
+
+  .lead__description {
+    width: 288px;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 40px;
+  }
+
+  .lead__image {
+    width: 320px;
+    height: 200px;
+  }
+}

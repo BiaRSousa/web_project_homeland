@@ -44,3 +44,65 @@
   line-height: 163%;
   margin: 0;
 }
+
+@media screen and (max-width: 1280px) {
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    margin: auto;
+    margin-top: 90px;
+    max-width: 720px;
+  }
+
+  .intro__title {
+    width: 707px;
+    font-size: 45px;
+    line-height: 49px;
+    margin-bottom: 50px;
+  }
+
+  .intro__quote {
+    width: 720px;
+    margin-bottom: 0;
+  }
+
+  .intro__quote-author {
+    width: 720px;
+  }
+
+  .intro__content {
+    width: 720px;
+    margin-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro {
+    width: 288px;
+    margin: auto;
+    margin-bottom: 64px;
+  }
+
+  .intro__title {
+    width: 288px;
+    font-size: 32px;
+    line-height: 35px;
+    margin-bottom: 40px;
+  }
+
+  .intro__quote {
+    width: 288px;
+    line-height: 30px;
+    margin-bottom: 10px;
+  }
+
+  .intro__quote-author {
+    width: 288px;
+  }
+
+  .intro__content {
+    width: 288px;
+    margin: auto;
+  }
+}
