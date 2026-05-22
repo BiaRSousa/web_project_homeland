@@ -1,12 +1,11 @@
 .lead {
-  width: 984px;
-  /*height: 983px;*/
+  max-width: 984px;
   margin: auto;
 }
 
-.lead__tittle {
+.lead__title {
   font-family: "Inter Black";
-  width: 720px;
+  max-width: 720px;
   color: #fff;
   font-size: 96px;
   line-height: 100px;
@@ -17,7 +16,7 @@
 
 .lead__description {
   font-family: "Inter";
-  width: 720px;
+  max-width: 720px;
   color: #fff;
   font-size: 30px;
   line-height: 36px;
@@ -27,17 +26,17 @@
 }
 
 .lead__image {
-  width: 984px;
-  height: 615px;
+  width: 100%;
+  max-width: 984px;
+  height: auto;
+  aspect-ratio: 984 / 615;
   filter: grayscale(100%);
+  object-fit: cover;
 }
 
-@media screen and (max-width: 768px) {
-  .lead {
-    max-width: 768px;
-  }
-
-  .lead__tittle {
+@media screen and (max-width: 1024px) {
+  .lead__title {
+    max-width: 530px;
     font-size: 75px;
     line-height: 79px;
     margin-bottom: 25px;
@@ -48,33 +47,22 @@
   }
 
   .lead__image {
-    width: 768px;
-    height: 480px;
+    max-width: 100%;
   }
 }
 
-@media screen and (max-width: 320px) {
-  .lead {
-    max-width: 320px;
-    margin-bottom: 64px;
-  }
-
-  .lead__tittle {
-    width: 228px;
+@media screen and (max-width: 544px) {
+  .lead__title {
+    max-width: 228px;
     font-size: 40px;
     line-height: 44px;
     margin-bottom: 16px;
   }
 
   .lead__description {
-    width: 288px;
+    max-width: 288px;
     font-size: 16px;
     line-height: 20px;
     margin-bottom: 40px;
-  }
-
-  .lead__image {
-    width: 320px;
-    height: 200px;
   }
 }

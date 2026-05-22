@@ -3,11 +3,14 @@
 }
 
 .footer__copyright {
-  width: 166px;
+  max-width: 166px;
   font-family: "Inter";
   font-size: 14px;
   line-height: 16px;
   color: #fff;
   margin: auto;
   margin-bottom: 24px;
+}
+
+@media screen and (max-width: 544px) {
 }
