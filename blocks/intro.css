@@ -48,7 +48,7 @@
 @media screen and (max-width: 1024px) {
   .intro {
     max-width: 720px;
-    margin: 90px auto 88px 24px;
+    margin: 90px 24px 88px 24px;
   }
 
   .intro__title {
@@ -65,8 +65,7 @@
 
 @media screen and (max-width: 544px) {
   .intro {
-    max-width: 288px;
-    margin: 64px auto 64px 16px;
+    margin: 64px 16px 64px 16px;
   }
 
   .intro__title {
